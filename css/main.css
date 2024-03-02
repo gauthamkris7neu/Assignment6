@@ -278,21 +278,30 @@ body > footer .footer-flex div {
   gap: 20px;
   padding: 20px 40px;
 }
-.product-grid .grid-container .product-item {
+.product-grid .grid-container .product-item:nth-child(1) {
   border: 1px solid #8BC34A;
   border-radius: 0.5rem;
   max-width: 300px;
   overflow: hidden;
   transition: transform 0.3s ease;
+  background-color: #8BC34A;
 }
-.product-grid .grid-container .product-item:hover {
+.product-grid .grid-container .product-item:nth-child(1):hover {
   transform: translateY(-5px);
 }
-.product-grid .grid-container .product-item img {
+.product-grid .grid-container .product-item:nth-child(1) img {
   width: 100%;
   height: auto;
 }
-.product-grid .grid-container .product-item button {
+.product-grid .grid-container .product-item:nth-child(1) h3 {
+  font-size: 1.25rem;
+  padding: 10px;
+}
+.product-grid .grid-container .product-item:nth-child(1) p {
+  font-size: 1rem;
+  padding: 0 10px 10px;
+}
+.product-grid .grid-container .product-item:nth-child(1) button {
   background-color: #00FF00;
   color: #333;
   padding: 10px 20px;
@@ -304,14 +313,234 @@ body > footer .footer-flex div {
   transform: translateX(-50%);
   bottom: 10px;
 }
-.product-grid .grid-container .product-item button:hover {
+.product-grid .grid-container .product-item:nth-child(1) button:hover {
   background-color: #00cc00;
 }
-.product-grid .grid-container .product-item h3 {
+.product-grid .grid-container .product-item:nth-child(2) {
+  border: 1px solid #8BC34A;
+  border-radius: 0.5rem;
+  max-width: 300px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  background-color: #4CAF50;
+}
+.product-grid .grid-container .product-item:nth-child(2):hover {
+  transform: translateY(-5px);
+}
+.product-grid .grid-container .product-item:nth-child(2) img {
+  width: 100%;
+  height: auto;
+}
+.product-grid .grid-container .product-item:nth-child(2) h3 {
   font-size: 1.25rem;
   padding: 10px;
 }
-.product-grid .grid-container .product-item p {
+.product-grid .grid-container .product-item:nth-child(2) p {
   font-size: 1rem;
   padding: 0 10px 10px;
+}
+.product-grid .grid-container .product-item:nth-child(2) button {
+  background-color: #00FF00;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+}
+.product-grid .grid-container .product-item:nth-child(2) button:hover {
+  background-color: #00cc00;
+}
+.product-grid .grid-container .product-item:nth-child(3) {
+  border: 1px solid #8BC34A;
+  border-radius: 0.5rem;
+  max-width: 300px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  background-color: #8BC34A;
+}
+.product-grid .grid-container .product-item:nth-child(3):hover {
+  transform: translateY(-5px);
+}
+.product-grid .grid-container .product-item:nth-child(3) img {
+  width: 100%;
+  height: auto;
+}
+.product-grid .grid-container .product-item:nth-child(3) h3 {
+  font-size: 1.25rem;
+  padding: 10px;
+}
+.product-grid .grid-container .product-item:nth-child(3) p {
+  font-size: 1rem;
+  padding: 0 10px 10px;
+}
+.product-grid .grid-container .product-item:nth-child(3) button {
+  background-color: #00FF00;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+}
+.product-grid .grid-container .product-item:nth-child(3) button:hover {
+  background-color: #00cc00;
+}
+.product-grid .grid-container .product-item:nth-child(4) {
+  border: 1px solid #8BC34A;
+  border-radius: 0.5rem;
+  max-width: 300px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  background-color: #4CAF50;
+}
+.product-grid .grid-container .product-item:nth-child(4):hover {
+  transform: translateY(-5px);
+}
+.product-grid .grid-container .product-item:nth-child(4) img {
+  width: 100%;
+  height: auto;
+}
+.product-grid .grid-container .product-item:nth-child(4) h3 {
+  font-size: 1.25rem;
+  padding: 10px;
+}
+.product-grid .grid-container .product-item:nth-child(4) p {
+  font-size: 1rem;
+  padding: 0 10px 10px;
+}
+.product-grid .grid-container .product-item:nth-child(4) button {
+  background-color: #00FF00;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+}
+.product-grid .grid-container .product-item:nth-child(4) button:hover {
+  background-color: #00cc00;
+}
+.product-grid .grid-container .product-item:nth-child(5) {
+  border: 1px solid #8BC34A;
+  border-radius: 0.5rem;
+  max-width: 300px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  background-color: #8BC34A;
+}
+.product-grid .grid-container .product-item:nth-child(5):hover {
+  transform: translateY(-5px);
+}
+.product-grid .grid-container .product-item:nth-child(5) img {
+  width: 100%;
+  height: auto;
+}
+.product-grid .grid-container .product-item:nth-child(5) h3 {
+  font-size: 1.25rem;
+  padding: 10px;
+}
+.product-grid .grid-container .product-item:nth-child(5) p {
+  font-size: 1rem;
+  padding: 0 10px 10px;
+}
+.product-grid .grid-container .product-item:nth-child(5) button {
+  background-color: #00FF00;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+}
+.product-grid .grid-container .product-item:nth-child(5) button:hover {
+  background-color: #00cc00;
+}
+.product-grid .grid-container .product-item:nth-child(6) {
+  border: 1px solid #8BC34A;
+  border-radius: 0.5rem;
+  max-width: 300px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  background-color: #4CAF50;
+}
+.product-grid .grid-container .product-item:nth-child(6):hover {
+  transform: translateY(-5px);
+}
+.product-grid .grid-container .product-item:nth-child(6) img {
+  width: 100%;
+  height: auto;
+}
+.product-grid .grid-container .product-item:nth-child(6) h3 {
+  font-size: 1.25rem;
+  padding: 10px;
+}
+.product-grid .grid-container .product-item:nth-child(6) p {
+  font-size: 1rem;
+  padding: 0 10px 10px;
+}
+.product-grid .grid-container .product-item:nth-child(6) button {
+  background-color: #00FF00;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+}
+.product-grid .grid-container .product-item:nth-child(6) button:hover {
+  background-color: #00cc00;
+}
+.product-grid .grid-container .product-item:nth-child(7) {
+  border: 1px solid #8BC34A;
+  border-radius: 0.5rem;
+  max-width: 300px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  background-color: #8BC34A;
+}
+.product-grid .grid-container .product-item:nth-child(7):hover {
+  transform: translateY(-5px);
+}
+.product-grid .grid-container .product-item:nth-child(7) img {
+  width: 100%;
+  height: auto;
+}
+.product-grid .grid-container .product-item:nth-child(7) h3 {
+  font-size: 1.25rem;
+  padding: 10px;
+}
+.product-grid .grid-container .product-item:nth-child(7) p {
+  font-size: 1rem;
+  padding: 0 10px 10px;
+}
+.product-grid .grid-container .product-item:nth-child(7) button {
+  background-color: #00FF00;
+  color: #333;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 10px;
+}
+.product-grid .grid-container .product-item:nth-child(7) button:hover {
+  background-color: #00cc00;
 }
