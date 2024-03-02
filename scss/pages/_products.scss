@@ -1,0 +1,60 @@
+@import '../abstracts/mixins';
+
+.product-intro {
+    padding: $base-spacing;
+    text-align: center;
+  
+    h1 {
+      font-size: calculate-rem(28);
+    }
+  
+    p {
+      font-size: calculate-rem(18);
+      margin-top: $small-spacing;
+    }
+  }
+  
+  .product-grid {
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(calculate-rem(300), 1fr));
+      gap: $base-spacing;
+      padding: $base-spacing $large-spacing;
+  
+      .product-item {
+        border: 1px solid $secondary-color;
+        border-radius: calculate-rem(8);
+        max-width: 300px;
+        overflow: hidden;
+        transition: transform 0.3s ease;
+  
+        &:hover {
+          transform: translateY(-5px);
+        }
+  
+        img {
+          width: 100%;
+          height: auto;
+        }
+
+        button {
+          @include theme-button($bg-color: #00FF00); 
+          position: relative;
+          left: 50%;
+          transform: translateX(-50%);
+          bottom: 10px; 
+        }
+  
+        h3 {
+          font-size: calculate-rem(20);
+          padding: $small-spacing;
+        }
+  
+        p {
+          font-size: calculate-rem(16);
+          padding: 0 $small-spacing $small-spacing;
+        }
+      }
+    }
+  }
+  
